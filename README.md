@@ -1,12 +1,15 @@
 # Supply Chain Data Analysis Project
 
-This project analyzes supply chain data for a skincare company to enhance efficiency, reliability, and profitability. It explores five key areas:
+This project analyzes supply chain data for a skincare company to enhance **efficiency**, **reliability**, and **profitability**. It explores five key areas:
 
 - Demand Forecasting & Sales Insights
 - Inventory Optimization
 - Supplier & Manufacturing Efficiency
 - Quality Control
 - Logistics & Cost Efficiency
+
+<!-- Optional: Add a header image here, e.g., ![Supply Chain Analysis](supply-chain.jpg) -->
+<!-- Suggestion: Use a free stock image from Unsplash (e.g., search "supply chain" or "data analysis") -->
 
 ## Table of Contents
 
@@ -15,16 +18,16 @@ This project analyzes supply chain data for a skincare company to enhance effici
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Analysis and Modeling](#analysis-and-modeling)
 - [Insights and Recommendations](#insights-and-recommendations)
-  - [SKU Analysis](#sku-analysis)
-  - [Customer Analysis](#customer-analysis)
-  - [Production Analysis](#production-analysis)
-  - [Shipping Analysis](#shipping-analysis)
-  - [Supplier Analysis](#supplier-analysis)
-  - [Transportation Analysis](#transportation-analysis)
+- [SKU Analysis](#sku-analysis)
+- [Customer Analysis](#customer-analysis)
+- [Production Analysis](#production-analysis)
+- [Shipping Analysis](#shipping-analysis)
+- [Supplier Analysis](#supplier-analysis)
+- [Transportation Analysis](#transportation-analysis)
 
 ## Data Source
 
-The dataset is a CSV file with 100 records and 27 columns, covering product information, sales and customer data, inventory and orders, shipping and logistics, supplier and manufacturing, and quality control. Source: Supply Chain Dataset
+The dataset is a CSV file with 100 records and 27 columns, covering product information, sales and customer data, inventory and orders, shipping and logistics, supplier and manufacturing, and quality control. See [`dataset.csv`](dataset.csv) for the data.
 
 ## Data Preparation
 
@@ -38,7 +41,9 @@ The dataset is a CSV file with 100 records and 27 columns, covering product info
 
 ## Exploratory Data Analysis (EDA)
 
-Used summary statistics and visualizations to uncover trends and patterns. See the project documentation for detailed charts and findings.
+Used summary statistics and visualizations to uncover trends and patterns. See the [project documentation](documentation.md) for detailed charts and findings.
+
+<!-- Optional: Add a sample chart image here, e.g., ![EDA Chart](eda-chart.jpg) -->
 
 ## Analysis and Modeling
 
@@ -50,13 +55,13 @@ This section is in progress. It will detail analytical techniques, tools, assump
 
 **Insights:**
 
-- Top SKUs (SKU10, SKU4) lead sales, but profitability is low (3.44K profit vs. 87.85K loss).
-- Stock gaps and long lead times (e.g., SKU30: 90 days) are issues.
+- Top SKUs (`SKU10`, `SKU4`) lead sales, but profitability is low (3.44K profit vs. 87.85K loss).
+- Stock gaps and long lead times (e.g., `SKU30`: 90 days) are issues.
 
 **Recommendations:**
 
-- Adjust pricing/costs for low-profit SKUs (e.g., SKU0, SKU22).
-- Optimize stock for high-demand SKUs (e.g., SKU0, SKU4).
+- Adjust pricing/costs for low-profit SKUs (e.g., `SKU0`, `SKU22`).
+- Optimize stock for high-demand SKUs (e.g., `SKU0`, `SKU4`).
 - Reduce lead times with supplier collaboration.
 - Enhance forecasting using sales trends.
 
@@ -124,6 +129,11 @@ This section is in progress. It will detail analytical techniques, tools, assump
 - Expand sea transport usage.
 - Optimize high-cost routes (e.g., Route A).
 
-For a deeper dive into the analysis and visualizations, check out the project documentation.
+---
 
-This repository includes the dataset and full analysis documentation for the Supply Chain Data Analysis Project.
+For a deeper dive into the analysis and visualizations, check out the [project documentation](documentation.md).
+
+This repository includes:
+
+- [`dataset.csv`](dataset.csv): The supply chain dataset used in the analysis.
+- [`documentation.md`](documentation.md): Detailed documentation of the analysis, including visualizations and findings.
